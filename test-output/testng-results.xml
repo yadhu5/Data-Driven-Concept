@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22919" started-at="2021-05-19T16:49:24 CDT" finished-at="2021-05-19T16:49:46 CDT">
+  <suite name="Default suite" duration-ms="87251" started-at="2021-05-23T18:45:26 CDT" finished-at="2021-05-23T18:46:53 CDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22919" started-at="2021-05-19T16:49:24 CDT" finished-at="2021-05-19T16:49:46 CDT">
+    <test name="Default test" duration-ms="87251" started-at="2021-05-23T18:45:26 CDT" finished-at="2021-05-23T18:46:53 CDT">
       <class name="Test.AddCustomerTest">
-        <test-method status="FAIL" signature="validatingcustomer()[pri:0, instance:Test.AddCustomerTest@139982de]" name="validatingcustomer" duration-ms="22886" started-at="2021-05-19T16:49:24 CDT" finished-at="2021-05-19T16:49:46 CDT">
+        <test-method status="FAIL" signature="validatingcustomer()[pri:0, instance:Test.AddCustomerTest@139982de]" name="validatingcustomer" duration-ms="87208" started-at="2021-05-23T18:45:26 CDT" finished-at="2021-05-23T18:46:53 CDT">
           <exception class="org.openqa.selenium.NoAlertPresentException">
             <message>
               <![CDATA[no such alert
@@ -15,8 +15,8 @@
 Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
 System info: host: 'DESKTOP-941BKNN', ip: '192.168.36.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Yadu\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59830}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a4d8922861943bf1eb5ae542c0ba24ed]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Yadu\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51394}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c5bddf2d99a03c1a4c6b7702efcd4122]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoAlertPresentException: no such alert
@@ -24,8 +24,8 @@ Session ID: a4d8922861943bf1eb5ae542c0ba24ed]]>
 Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
 System info: host: 'DESKTOP-941BKNN', ip: '192.168.36.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Yadu\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59830}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a4d8922861943bf1eb5ae542c0ba24ed
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Yadu\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51394}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c5bddf2d99a03c1a4c6b7702efcd4122
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -38,7 +38,7 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverComman
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
 at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:987)
-at Page.AddCustomerPage.clikokconfirmationbutton(AddCustomerPage.java:133)
+at Page.AddCustomerPage.clikokconfirmationbutton(AddCustomerPage.java:137)
 at Test.AddCustomerTest.validatingcustomer(AddCustomerTest.java:65)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)

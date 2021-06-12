@@ -28,11 +28,6 @@ public class DashboardPage extends BasePage{
 	public void verifyingthedashboardpage() {
 		waitForElement(driver,4,DASHBOARD_PAGE);
 		Assert.assertEquals(DASHBOARD_PAGE.getText(), "Dashboard", "Page not found");
-
-	}
-
-	public void WaitDriverWait() {
-		// TODO Auto-generated method stub
 		
 	}
 

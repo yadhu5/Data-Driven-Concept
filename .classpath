@@ -8,9 +8,9 @@
 	</classpathentry>
 	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
 		<attributes>
+			<attribute name="test" value="true"/>
 			<attribute name="optional" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="test" value="true"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
@@ -23,16 +23,18 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Yadu/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar" sourcepath="C:/Users/Yadu/.m2/repository/junit/junit/3.8.1/junit-3.8.1-sources.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="test" value="true"/>
-			<attribute name="maven.groupId" value="junit"/>
-			<attribute name="maven.artifactId" value="junit"/>
-			<attribute name="maven.version" value="3.8.1"/>
-			<attribute name="maven.scope" value="test"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="lib" path="C:/Users/Yadu/Desktop/Eclipse/eclipse-java-2020-12/eclipse/plugins/org.testng_7.4.0.r202105021533.jar" sourcepath="C:/Users/Yadu/Desktop/Eclipse/eclipse-java-2020-12/eclipse/plugins/org.testng.source_7.4.0.r202105021533.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Yadu/Downloads/jar_files/commons-codec-1.13.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Yadu/Downloads/jar_files/commons-compress-1.20.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Yadu/Downloads/jar_files/commons-io-2.8.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Yadu/Downloads/jar_files/commons-lang3-3.12.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Yadu/Downloads/jar_files/gson-2.8.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Yadu/Downloads/jar_files/httpclient5-5.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Yadu/Downloads/jar_files/httpcore5-5.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Yadu/Downloads/jar_files/httpcore5-h2-5.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Yadu/Downloads/jar_files/jarchivelib-1.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Yadu/Downloads/jar_files/jsoup-1.13.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Yadu/Downloads/jar_files/slf4j-api-1.7.30.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Yadu/Downloads/jar_files/webdrivermanager-4.4.3.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

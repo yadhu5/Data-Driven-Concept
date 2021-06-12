@@ -10,19 +10,20 @@ import Util.ExcelReader;
 
 public class LoginTest {
 
-WebDriver driver;
-			
-		ExcelReader exlRead= new ExcelReader("src\\main\\java\\Data\\TF_TestData.xlsx");
-		String username = exlRead.getCellData("LoginInfo", "UserName", 2);
-		String password = exlRead.getCellData("LoginInfo","Password",2);
+	WebDriver driver;
+
+	ExcelReader exlRead = new ExcelReader("src\\main\\java\\Data\\TF_TestData.xlsx");
+	String username = exlRead.getCellData("LoginInfo", "UserName", 2);
+	String password = exlRead.getCellData("LoginInfo", "Password", 2);
+
 	@Test
-public void validatingloginpage() {
-		
-			
+	public void validatingloginpage() {
+
 		driver = BrowserFactory.init();
-		LoginPage loginpage = PageFactory.initElements(driver, LoginPage.class);	
+		LoginPage loginpage = PageFactory.initElements(driver, LoginPage.class);
 		loginpage.insertusername(username);
 		loginpage.insertpassword(password);
 		loginpage.clickonSigninField();
-}
+	
+	}
 }

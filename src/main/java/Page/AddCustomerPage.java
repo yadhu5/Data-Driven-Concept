@@ -123,20 +123,16 @@ public class AddCustomerPage extends BasePage {
 				driver.findElement(By.xpath(before_xpath + i + after_xpath + "/following-sibling::td[4]/a[2]")).click();
 
 			}
+			break;
 
 		}
 	}
 
 	public void clikokconfirmationbutton() {
 		waitForElement(driver, 4, OK_CONFIRMATION_BUTTON);
+		
+		waitForElement(driver, 4, OK_CONFIRMATION_BUTTON);
 		OK_CONFIRMATION_BUTTON.click();
-		Alert alert = driver.switchTo().alert();
-
-		// Capturing alert message.
-		driver.switchTo().alert().getText();
-
-		// Accepting alert
-		alert.accept();
 		
 		
 	}
